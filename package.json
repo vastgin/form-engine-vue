@@ -1,0 +1,40 @@
+{
+  "name": "form-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "简道云风格的表单引擎（form-create + Vue3）：设计器 + 渲染器 + schema 契约",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "vue-tsc --noEmit",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/ tests/ *.md *.js *.json"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "2.3.1",
+    "@form-create/element-ui": "3.2.16",
+    "async-validator": "4.2.5",
+    "element-plus": "2.8.8",
+    "vue": "3.5.13",
+    "vuedraggable": "4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.1",
+    "@vitejs/plugin-vue": "5.2.1",
+    "@vue/eslint-config-prettier": "10.2.0",
+    "@vue/eslint-config-typescript": "14.9.0",
+    "@vue/test-utils": "2.4.6",
+    "eslint": "10.10.0",
+    "eslint-plugin-vue": "10.10.0",
+    "jsdom": "25.0.1",
+    "prettier": "3.9.6",
+    "typescript": "5.6.3",
+    "vite": "5.4.11",
+    "vitest": "2.1.8",
+    "vue-tsc": "2.1.10"
+  }
+}

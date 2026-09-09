@@ -1,0 +1,12 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+coverage
+.vite
+.npm-cache
+*.tsbuildinfo
+.qoder
+.idea
+openspec
